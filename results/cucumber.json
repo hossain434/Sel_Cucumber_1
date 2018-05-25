@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10246345999,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Test_Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76039675,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Test_Steps.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1592567740,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"arif4\" and \"arif4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arif4",
+                  "offset": 13
+                },
+                {
+                  "val": "arif4",
+                  "offset": 25
+                }
+              ],
+              "location": "Test_Steps.user_enters_UserName_and_Password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104208,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "Test_Steps.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Successful LogOut",
+        "description": "",
+        "id": "login-action;successful-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3174732809,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "Test_Steps.user_LogOut_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1317117236,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message displayed Logout Successfully",
+            "match": {
+              "location": "Test_Steps.message_displayed_Logout_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "LogIn_Feature.feature"
+  }
+]
